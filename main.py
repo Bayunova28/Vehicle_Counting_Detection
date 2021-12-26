@@ -67,8 +67,8 @@ while True:
 
     cv2.imshow("Traffic Supervision", frame)
 
-    key = cv2.waitKey(1)
-    if key == 13:
+    key = cv2.waitKey(30)
+    if key == 27:
         break
 
 cctv.release()
